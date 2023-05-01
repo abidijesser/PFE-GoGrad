@@ -3,7 +3,12 @@ module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        mygreen: '#1ccaad',
+        mygreen2: '#2aa792'
+      },
+    },
   },
   variants: {
     extend: {},
